@@ -1,0 +1,11 @@
+#Authorization
+/token:
+  $ref: ./token/token.yaml
+
+#Account
+/account/{currency}:
+  $ref: ./account/account.yaml
+
+#Device
+/device/{deviceId}:
+  $ref: ./device/device-deviceId.yaml

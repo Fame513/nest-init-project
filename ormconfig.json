@@ -1,0 +1,24 @@
+{
+  "MEMORY_DB": {
+    "type": "sqlite",
+    "database": ":memory:",
+    "entities": [
+      "src/**/**.entity{.ts,.js}"
+    ],
+    "logging": false,
+    "synchronize": true
+  },
+  "AWS_PROD_DB": {
+    "type": "mysql",
+    "host": "***",
+    "port": 3306,
+    "username": "***",
+    "password": "***",
+    "database": "my_eos_wallet",
+    "entities": [
+      "dist/**/**.entity{.ts,.js}"
+    ],
+    "logging": true,
+    "supportBigNumbers": true
+  }
+}

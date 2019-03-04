@@ -1,0 +1,14 @@
+openapi: 3.0.0
+info:
+  $ref: ./info/index.yaml
+tags:
+  - name: Authorization
+    description: Methods for user authorization
+  - name: Account
+    description: Eos account management
+  - name: Device
+    description: Device info methods
+paths:
+  $ref: ./path/index.yaml
+components:
+  $ref: ./components/index.yaml
