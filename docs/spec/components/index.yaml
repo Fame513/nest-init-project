@@ -1,15 +1,9 @@
 securitySchemes:
   $ref: ./security-schemas/security.yaml
 schemas:
-  $ref#account: ./schemas/account.yaml
-  $ref#auth: ./schemas/auth.yaml
-  $ref#device: ./schemas/device.yaml
+
 parameters:
-  $ref#auth: ./parameters/auth.yaml
-  $ref#account: ./parameters/account.yaml
-  $ref#device: ./parameters/device.yaml
+
 responses:
-  $ref#auth: ./responses/auth.yaml
   $ref#error: ./responses/error.yaml
-  $ref#account: ./responses/account.yaml
-  $ref#device: ./responses/device.yaml
+
